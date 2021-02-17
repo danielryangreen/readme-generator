@@ -27,6 +27,7 @@ const questions = [
     type: 'input',
     name: 'usage',
     message: 'Provide instructions and examples for use.',
+    default: 'node index.js',
   },
   {
     type: 'list',

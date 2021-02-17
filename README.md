@@ -1,6 +1,6 @@
-# Markdown Helper
+# Helper
   ## Description
-  Command-line application to create a professional README from user input.
+  does stuff
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -9,14 +9,14 @@
   * [Tests](#tests)
   * [Questions](#questions)
   ## Installation
-  npm i
+  To install required packages, enter `npm i` in the terminal.
   ## Usage
-  Invoke the application by entering 'node index.js' in the terminal.
+  To run the application, enter `node index.js` in the terminal.
   ## License
   ## Contributing
-  Please submit a pull request.
+  PR
   ## Tests
-  Not used
+  To run tests (if provided), enter `npm test` in the terminal.
   ## Questions
   Please contact me at dan.ryan.green@gmail.com if you have any questions. See my other work at [danielryangreen](https://github.com/danielryangreen/) on GitHub.
   

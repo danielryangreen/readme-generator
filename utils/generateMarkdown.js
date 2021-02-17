@@ -17,14 +17,14 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [Questions](#questions)
   ## Installation
-  ${data.installation}
+  To install required packages, enter \`${data.installation}\` in the terminal.
   ## Usage
-  ${data.usage}
+  To run the application, enter \`${data.usage}\` in the terminal.
   ## License
   ## Contributing
   ${data.contributing}
   ## Tests
-  ${data.tests}
+  To run tests (if provided), enter \`${data.tests}\` in the terminal.
   ## Questions
   Please contact me at ${data.email} if you have any questions. See my other work at [${data.github}](https://github.com/danielryangreen/) on GitHub.
   `;
