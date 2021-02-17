@@ -12,28 +12,49 @@ const questions = [
     name: 'title',
     message: 'What is the title of your project?',
   },
-  // What is your GitHub username?
-
-  // What is your email address?
-
-  // What is your project's name?
-
-  // Please write a short description of your project.
-
-  // What kind of license should your project have?
-  // MIT
-  // APACHE 2.0
-  // GPL 3.0
-  // BSD 3
-  // None
-
-  // What command should be run to install dependencies? (npm i)
-
-  // What command should be run to run tests? (npm test)
-
-  // What does the user need to know about using the repo?
-
-  // What does the user need to know about contributing to the repo? (Please make a PR if you would like to add to the project.)
+  {
+    type: 'input',
+    name: 'description',
+    message: 'Please write a short description of your project.',
+  },
+  {
+    type: 'input',
+    name: 'installation',
+    message: 'What steps are required to install your project?',
+    default: 'npm i',
+  },
+  {
+    type: 'input',
+    name: 'usage',
+    message: 'Provide instructions and examples for use.',
+  },
+  {
+    type: 'list',
+    name: 'license',
+    message: 'Choose a license.',
+    choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'None'],
+  },
+  {
+    type: 'input',
+    name: 'contributing',
+    message: 'How can other developers contribute to your project?',
+  },
+  {
+    type: 'input',
+    name: 'tests',
+    message: 'What command should be used to run tests?',
+    default: 'npm test',
+  },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'What is your email address?',
+  },
+  {
+    type: 'input',
+    name: 'github',
+    message: 'What is your GitHub username?',
+  },
 ];
 
 // function to write README file
