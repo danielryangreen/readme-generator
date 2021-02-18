@@ -1,7 +1,7 @@
-# Helper
-  
+# Markdown Helper
+  ![MIT license](https://img.shields.io/badge/license-MIT-green)
   ## Description
-  does stuff
+  Command-line application to create a professional README.
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -14,9 +14,9 @@
   ## Usage
   To run the application, enter `node index.js` in the terminal.
   ## License
-  This project is not licensed.
+  This project is covered under the MIT license.
   ## Contributing
-  PR
+  Please submit a pull request.
   ## Tests
   To run tests (if provided), enter `npm test` in the terminal.
   ## Questions
