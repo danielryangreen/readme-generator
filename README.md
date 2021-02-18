@@ -1,7 +1,7 @@
-# Markdown Helper
+# Helper
   
   ## Description
-  Command-line application to create a professional README.
+  does stuff
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -14,9 +14,9 @@
   ## Usage
   To run the application, enter `node index.js` in the terminal.
   ## License
-  This project is covered under the  license.
+  This project is not licensed.
   ## Contributing
-  Please submit a pull request.
+  PR
   ## Tests
   To run tests (if provided), enter `npm test` in the terminal.
   ## Questions

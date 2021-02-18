@@ -20,13 +20,16 @@ function getLicense(license) {
   let name = '';
   switch (license) {
     case 'MIT':
-      name = 'MIT';
+      name = 'This project is covered under the MIT license.';
       break;
     case 'Apache 2.0':
-      name = 'Apache-2.0';
+      name = 'This project is covered under the Apache-2.0 license.';
       break;
     case 'GNU GPLv3':
-      name = 'GPL-3.0-or-later';
+      name = 'This project is covered under the GPL-3.0-or-later license.';
+      break;
+    case 'None':
+      name = 'This project does not have a license.';
       break;
   }
   return name;
@@ -50,7 +53,7 @@ function generateMarkdown(data) {
   ## Usage
   To run the application, enter \`${data.usage}\` in the terminal.
   ## License
-  This project is covered under the ${getLicense(data.license)} license.
+  ${getLicense(data.license)}
   ## Contributing
   ${data.contributing}
   ## Tests
