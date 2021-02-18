@@ -1,12 +1,41 @@
 // function that returns the license badge
-
-// function that returns the license link
+function getBadge(license) {
+  let badge = '';
+  switch (license) {
+    case 'MIT':
+      badge = '![MIT license](https://img.shields.io/badge/license-MIT-green)';
+      break;
+    case 'Apache 2.0':
+      badge = '![Apache license](https://img.shields.io/badge/license-Apache-green)';
+      break;
+    case 'GNU GPLv3':
+      badge = '![GPL license](https://img.shields.io/badge/license-GPL-green)';
+      break;
+  }
+  return badge;
+}
 
 // function that returns the license section of README
+function getLicense(license) {
+  let name = '';
+  switch (license) {
+    case 'MIT':
+      name = 'MIT';
+      break;
+    case 'Apache 2.0':
+      name = 'Apache-2.0';
+      break;
+    case 'GNU GPLv3':
+      name = 'GPL-3.0-or-later';
+      break;
+  }
+  return name;
+}
 
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ${getBadge(data.license)}
   ## Description
   ${data.description}
   ## Table of Contents
@@ -21,6 +50,7 @@ function generateMarkdown(data) {
   ## Usage
   To run the application, enter \`${data.usage}\` in the terminal.
   ## License
+  This project is covered under the ${getLicense(data.license)} license.
   ## Contributing
   ${data.contributing}
   ## Tests
