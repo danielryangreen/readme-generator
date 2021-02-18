@@ -15,10 +15,13 @@
   To run the application, enter `node index.js` in the terminal.
 
   Here is a walkthrough video that demonstrates the functionality of the application.
+
   [Google Drive](https://drive.google.com/file/d/1_pAM6XwOCRB02CzHm4G1Vh3vxuPq9NC9/view?usp=sharing)
+
   ![walkthrough video](assets/ReadmeGenerator.gif)
   
   Here is a sample README that was generated using the application.
+  
   ![sample README](assets/SampleREADME.png)
   ## License
   This project is covered under the MIT license.
